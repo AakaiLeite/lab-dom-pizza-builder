@@ -122,7 +122,7 @@ function renderPrice() {
   }
 
   // Update the total price in the price panel
-  pricePanel.querySelector('strong').textContent = `$${totalPrice}`;
+  pricePanel.querySelector('strong').innerHTML = `$${totalPrice}`;
 }
 
 renderEverything();
